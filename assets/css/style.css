@@ -73,20 +73,19 @@ a:hover {
 
 /* Main Content **/
 .main-content {
-   
-    width:60%;
-    margin: 0 15px;
-    padding: 10px;
+
     
 }
 
    .main-content {
     float: left;
     background-color: #ffffff;
-        width:600px;
-        max-width: 650px;
+        width:590px;
+        max-width: 590px;
         margin-left: 20%;
         position: relative;
+        margin:0 15px;
+        margin-left: 20%;
     }
 
 
@@ -124,12 +123,11 @@ a:hover {
 
 /** Conntact Area **/
 .contact-content {
-    min-width: 270px;
-    width:270px;
+    min-width: 255px;
+    width:255px;
     background-color: #ffffff;
     overflow: auto;
     margin: 15px;
-    margin-left:  35px;
     padding:5px;
 }
 
