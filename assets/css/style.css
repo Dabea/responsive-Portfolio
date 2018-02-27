@@ -73,20 +73,16 @@ a:hover {
 
 /* Main Content **/
 .main-content {
-
-    
-}
-
-   .main-content {
+    width:40%;
     float: left;
     background-color: #ffffff;
-        width:590px;
-        max-width: 590px;
-        margin-left: 20%;
-        position: relative;
-        margin:0 15px;
-        margin-left: 20%;
-    }
+    max-width: 590px;
+    margin-left: 20%;
+    position: relative;
+    margin:0 15px;
+    margin-left: 20%;
+    padding:15px;
+}
 
 
 /** Image Container */
@@ -123,8 +119,8 @@ a:hover {
 
 /** Conntact Area **/
 .contact-content {
-    min-width: 255px;
-    width:255px;
+    min-width: 270px;
+    width:270px;
     background-color: #ffffff;
     overflow: auto;
     margin: 15px;
@@ -218,20 +214,18 @@ textarea {
 /** media Query's **/
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1112px) {
     .about-img{
         width:40%;
         float: left;
-        padding-right: 15px;
-
-
-        
+        padding-right: 15px;        
     }
 
     .main-content {
-        width:80%;
+        width:90%;
         margin-left: 6%;
         margin-bottom: 15px;
+        padding:15px;
     }
 
     .masthead-name{
@@ -239,9 +233,9 @@ textarea {
     }
 
     .contact-content {
-        widows: 275px;
-        margin-top: 15px;
+        width:230px;
         position: static;
+        margin-top: 15px;
         display: block;
         margin: 0 auto;
     }
@@ -256,6 +250,10 @@ textarea {
         padding-left: 0px;
 
         
+    }
+
+    .contact-content {
+        width:90%;
     }
 
 
@@ -273,7 +271,7 @@ textarea {
         width:90%;
         margin: 0px;
         margin-top: 19px;
-        margin-right: 20px;
+        margin-left: 5%;
     }
     
     .masthead-navigation ul li {
